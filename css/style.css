@@ -262,8 +262,8 @@ body {
         font-size: 15px;
         font-weight: 720;
         position: relative;
-        margin-left: calc(15vw - 40px);
-        padding: min(5px, 5px);
+        margin-left: calc(10vw - 40px);
+
 
     }
 
@@ -321,8 +321,8 @@ body {
         border: none;
         padding: 0;
         position: relative;
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
     }
 
     .header__nav-toggler span,
@@ -334,7 +334,7 @@ body {
         height: 2px;
         top: 50%;
         left: 50%;
-        translate: -50%;
+        translate: -50% -50%;
         background: var(--color-black);
         transition: .5s;
     }
@@ -377,8 +377,8 @@ body {
 
     .animation__color {
         position: fixed;
-        top: 20px;
-        right: 20px;
+        top: auto;
+        right: 10px;
 
         animation: animation__color;
         animation-duration: 3s;
