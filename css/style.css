@@ -251,7 +251,7 @@ body {
 
     .footer__nav {
         box-sizing: border-box;
-        padding: max(10px, 10px);
+        padding: max(15px, 15px);
         margin: auto;
         text-align: center;
         align-items: center;
@@ -268,16 +268,16 @@ body {
     }
 
     .footer__item {
-        width: 144px;
-        height: 61px;
-        margin: auto;
+        width: 110px;
+        height: 50px;
+        margin: 10px;
         padding-top: 30px;
         box-sizing: border-box;
 
     }
 
     .footer__text {
-        margin-top: -20px;
+        margin-top: -10px;
         text-decoration: none;
         line-height: 1.64;
         letter-spacing: 0.1em;
@@ -286,14 +286,14 @@ body {
     }
 
     .footer__title {
-        padding-top: 10px;
+        padding-top: 20px;
         margin-left: -50px;
         box-sizing: border-box;
 
     }
 
     .offer__title {
-        font-size: 32px;
+        font-size: 1px;
     }
 
     .button {
