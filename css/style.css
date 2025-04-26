@@ -262,7 +262,7 @@ body {
         font-size: 15px;
         font-weight: 720;
         position: relative;
-        margin-left: calc(10vw - 40px);
+        margin-left: calc(10vw - 100px);
 
 
     }
@@ -378,12 +378,10 @@ body {
     .animation__color {
         position: fixed;
         top: auto;
-        right: 10px;
-
+        right: 30px;
         animation: animation__color;
         animation-duration: 3s;
         animation-iteration-count: infinite;
-
     }
 
     @keyframes animation__color {
